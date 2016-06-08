@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+
+@interface SecondViewController : UIViewController{
+    IBOutlet UITableView *alarmClock;
+    NSMutableArray  * figure;
+    
+
+}
+
 
 
 @end

@@ -9,15 +9,48 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property UITabBarController * tabBarController;
 @end
 
 @implementation AppDelegate
+@synthesize tabBarController = _tabBarController;
+
+-(void)dealloc{
 
 
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    
+    UIStoryboard *mystoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController * viewController1 = [mystoryboard instantiateViewControllerWithIdentifier:@"FirstViewController"];
+    
+    UINavigationController *navigationController1 = [[UINavigationController alloc] initWithRootViewController:viewController1];
+    
+    
+    UIViewController * viewController2 = [mystoryboard instantiateViewControllerWithIdentifier:@"FirstViewController2"];
+    UINavigationController *navigationController2 = [[UINavigationController alloc] initWithRootViewController:viewController2];
+    UIViewController * viewController3 = [mystoryboard instantiateViewControllerWithIdentifier:@"TercerViewController"];
+    UINavigationController *navigationController3 = [[UINavigationController alloc] initWithRootViewController:viewController3];
+
+    
+    self.tabBarController = [[UITabBarController alloc]init];
+//    self.tabBarController.tabBar.barTintColor = [UIColor redColor];
+    [[UITabBar appearance] setSelectedImageTintColor:[UIColor redColor]];
+
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
+                                                        NSForegroundColorAttributeName : [UIColor redColor]
+                                                        } forState:UIControlStateSelected];
+
+
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:navigationController1, navigationController2, navigationController3, nil];
+    self.window.rootViewController =self.tabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
+
+    
+        
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -26,6 +59,8 @@
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
+    
+    
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }

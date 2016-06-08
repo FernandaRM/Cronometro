@@ -8,7 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController{
+IBOutlet UILabel * vuelLabel;
+IBOutlet UILabel * ComTime;
+NSTimer * Timer;
+IBOutlet UITableView * tableView;
+NSMutableArray * datos;
+NSMutableArray * subDatos;
+
+}
+
+- (IBAction)star:(id)sender;
+-(void) countup;
+- (IBAction)restar:(id)sender;
+
 
 
 @end

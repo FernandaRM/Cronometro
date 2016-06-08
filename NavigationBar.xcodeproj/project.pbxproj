@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D254A301CEC0822001B8E71 /* addAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D254A2F1CEC0822001B8E71 /* addAlarmViewController.m */; };
+		9D3539D41CE3F38700E97DCA /* creonometro2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3539D31CE3F38700E97DCA /* creonometro2.png */; };
+		9D3539D91CE3F62000E97DCA /* ALARMA2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3539D81CE3F62000E97DCA /* ALARMA2.png */; };
 		9D3770881CD178F3000EC9D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3770871CD178F3000EC9D1 /* main.m */; };
 		9D37708B1CD178F3000EC9D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37708A1CD178F3000EC9D1 /* AppDelegate.m */; };
 		9D37708E1CD178F3000EC9D1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37708D1CD178F3000EC9D1 /* FirstViewController.m */; };
 		9D3770911CD178F3000EC9D1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3770901CD178F3000EC9D1 /* SecondViewController.m */; };
 		9D3770941CD178F3000EC9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3770921CD178F3000EC9D1 /* Main.storyboard */; };
-		9D3770961CD178F3000EC9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3770951CD178F3000EC9D1 /* Assets.xcassets */; };
-		9D3770991CD178F3000EC9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3770971CD178F3000EC9D1 /* LaunchScreen.storyboard */; };
 		9D3770A41CD178F3000EC9D1 /* NavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3770A31CD178F3000EC9D1 /* NavigationBarTests.m */; };
 		9D3770AF1CD178F4000EC9D1 /* NavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3770AE1CD178F4000EC9D1 /* NavigationBarUITests.m */; };
+		9D441F741CD7CC1800AA1372 /* TercerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D441F731CD7CC1800AA1372 /* TercerViewController.m */; };
+		9D441F7D1CD7F02C00AA1372 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D441F7C1CD7F02C00AA1372 /* Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D254A2E1CEC0822001B8E71 /* addAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = addAlarmViewController.h; path = ../addAlarmViewController.h; sourceTree = "<group>"; };
+		9D254A2F1CEC0822001B8E71 /* addAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = addAlarmViewController.m; path = ../addAlarmViewController.m; sourceTree = "<group>"; };
+		9D3539D31CE3F38700E97DCA /* creonometro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creonometro2.png; sourceTree = "<group>"; };
+		9D3539D81CE3F62000E97DCA /* ALARMA2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ALARMA2.png; sourceTree = "<group>"; };
 		9D3770831CD178F3000EC9D1 /* NavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3770871CD178F3000EC9D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D3770891CD178F3000EC9D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,8 +52,6 @@
 		9D37708F1CD178F3000EC9D1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		9D3770901CD178F3000EC9D1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9D3770931CD178F3000EC9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D3770951CD178F3000EC9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D3770981CD178F3000EC9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D37709A1CD178F3000EC9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D37709F1CD178F3000EC9D1 /* NavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3770A31CD178F3000EC9D1 /* NavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarTests.m; sourceTree = "<group>"; };
@@ -54,6 +59,10 @@
 		9D3770AA1CD178F4000EC9D1 /* NavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3770AE1CD178F4000EC9D1 /* NavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarUITests.m; sourceTree = "<group>"; };
 		9D3770B01CD178F4000EC9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D441F721CD7CC1800AA1372 /* TercerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TercerViewController.h; sourceTree = "<group>"; };
+		9D441F731CD7CC1800AA1372 /* TercerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TercerViewController.m; sourceTree = "<group>"; };
+		9D441F7B1CD7F02C00AA1372 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = ../Utility.h; sourceTree = "<group>"; };
+		9D441F7C1CD7F02C00AA1372 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utility.m; path = ../Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D3539D51CE3F39900E97DCA /* IMAGENES */ = {
+			isa = PBXGroup;
+			children = (
+				9D3539D31CE3F38700E97DCA /* creonometro2.png */,
+				9D3539D81CE3F62000E97DCA /* ALARMA2.png */,
+			);
+			name = IMAGENES;
+			sourceTree = "<group>";
+		};
 		9D37707A1CD178F3000EC9D1 = {
 			isa = PBXGroup;
 			children = (
@@ -104,16 +122,21 @@
 		9D3770851CD178F3000EC9D1 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				9D254A2E1CEC0822001B8E71 /* addAlarmViewController.h */,
+				9D254A2F1CEC0822001B8E71 /* addAlarmViewController.m */,
 				9D3770891CD178F3000EC9D1 /* AppDelegate.h */,
 				9D37708A1CD178F3000EC9D1 /* AppDelegate.m */,
+				9D441F7B1CD7F02C00AA1372 /* Utility.h */,
+				9D441F7C1CD7F02C00AA1372 /* Utility.m */,
 				9D37708C1CD178F3000EC9D1 /* FirstViewController.h */,
 				9D37708D1CD178F3000EC9D1 /* FirstViewController.m */,
 				9D37708F1CD178F3000EC9D1 /* SecondViewController.h */,
 				9D3770901CD178F3000EC9D1 /* SecondViewController.m */,
+				9D441F721CD7CC1800AA1372 /* TercerViewController.h */,
+				9D441F731CD7CC1800AA1372 /* TercerViewController.m */,
 				9D3770921CD178F3000EC9D1 /* Main.storyboard */,
-				9D3770951CD178F3000EC9D1 /* Assets.xcassets */,
-				9D3770971CD178F3000EC9D1 /* LaunchScreen.storyboard */,
 				9D37709A1CD178F3000EC9D1 /* Info.plist */,
+				9D3539D51CE3F39900E97DCA /* IMAGENES */,
 				9D3770861CD178F3000EC9D1 /* Supporting Files */,
 			);
 			path = NavigationBar;
@@ -248,8 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D3770991CD178F3000EC9D1 /* LaunchScreen.storyboard in Resources */,
-				9D3770961CD178F3000EC9D1 /* Assets.xcassets in Resources */,
+				9D3539D41CE3F38700E97DCA /* creonometro2.png in Resources */,
+				9D3539D91CE3F62000E97DCA /* ALARMA2.png in Resources */,
 				9D3770941CD178F3000EC9D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +302,9 @@
 				9D37708B1CD178F3000EC9D1 /* AppDelegate.m in Sources */,
 				9D37708E1CD178F3000EC9D1 /* FirstViewController.m in Sources */,
 				9D3770881CD178F3000EC9D1 /* main.m in Sources */,
+				9D254A301CEC0822001B8E71 /* addAlarmViewController.m in Sources */,
+				9D441F7D1CD7F02C00AA1372 /* Utility.m in Sources */,
+				9D441F741CD7CC1800AA1372 /* TercerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +346,6 @@
 				9D3770931CD178F3000EC9D1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9D3770971CD178F3000EC9D1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D3770981CD178F3000EC9D1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -504,6 +522,7 @@
 				9D3770B51CD178F4000EC9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D3770B61CD178F4000EC9D1 /* Build configuration list for PBXNativeTarget "NavigationBarTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +531,7 @@
 				9D3770B81CD178F4000EC9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D3770B91CD178F4000EC9D1 /* Build configuration list for PBXNativeTarget "NavigationBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +540,7 @@
 				9D3770BB1CD178F4000EC9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
